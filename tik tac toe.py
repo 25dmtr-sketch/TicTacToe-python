@@ -12,8 +12,8 @@ run = True
 clock = pygame.time.Clock()
 # Klocka för att styra FPS
 
-font = pygame.font.Font('C:/Users/25dmtr/OneDrive - Stockholm Kommun/pythoncode/.venv/Sansita-Regular.ttf', 50)
-title_font = pygame.font.Font('C:/Users/25dmtr/OneDrive - Stockholm Kommun/pythoncode/.venv/Sansita-Regular.ttf', 150)
+font = pygame.font.Font('C:\Users\25dmtr\OneDrive - Stockholm Kommun\pythoncode\pythonPygameproject\Sansita-Regular (1).ttf', 50)
+title_font = pygame.font.Font('C:\Users\25dmtr\OneDrive - Stockholm Kommun\pythoncode\pythonPygameproject\Sansita-Regular (1).ttf', 150)
 # Laddar ett typsnitt
 
 #pygame.mixer.music.load('')
@@ -26,10 +26,10 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 # Skapar spelfönstret
 pygame.display.set_caption('2P TRIPLE T')
 # Sätter fönstertitel
-icon = pygame.image.load('C:/Users/25dmtr/OneDrive - Stockholm Kommun/pythoncode/.venv/tic-tac-toe-icon-illustration-free-vector.jpg')
+icon = pygame.image.load('C:\Users\25dmtr\OneDrive - Stockholm Kommun\pythoncode\pythonPygameproject\tic-tac-toe-icon-illustration-free-vector.jpg')
 pygame.display.set_icon(icon)
 # Sätter fönsterikon
-grip = pygame.image.load('C:/Users/25dmtr/OneDrive - Stockholm Kommun/pythoncode/.venv/gripp (1) (1).jpg')
+grip = pygame.image.load('C:\Users\25dmtr\OneDrive - Stockholm Kommun\pythoncode\pythonPygameproject\gripp (1) (1).jpg')
 # Laddar bilder
 
 cell = 280
